@@ -1,4 +1,5 @@
 ; Caps Lock → Tab, Hold Left Shift for 3 seconds → Caps Lock
+; Useful for keyboards with a broken or missing tab key.
 ; Requires AutoHotkey v1.1+
 
 #SingleInstance Force

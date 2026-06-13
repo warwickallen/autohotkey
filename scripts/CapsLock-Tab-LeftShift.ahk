@@ -1,16 +1,16 @@
-; Caps Lock → Tab, Hold Left Shift for 3 seconds → Caps Lock
+; Caps Lock → Tab, Hold Left Shift for 5 seconds → Caps Lock
 ; Useful for keyboards with a broken or missing tab key.
 ; Requires AutoHotkey v1.1+
 
 #SingleInstance Force
 
-shiftHoldDuration := 3000  ; ms (3 seconds)
+shiftHoldDuration := 5000  ; ms (5 seconds)
 lShiftPressTime := 0
 
 ; --- Caps Lock sends Tab ---
 CapsLock::Tab
 
-; --- Hold Left Shift for 3 seconds to toggle Caps Lock ---
+; --- Hold Left Shift for 5 seconds to toggle Caps Lock ---
 ; $ = don't retrigger when we Send LShift ourselves
 $LShift::
     lShiftPressTime := A_TickCount

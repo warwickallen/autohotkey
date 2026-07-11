@@ -15,7 +15,7 @@ AutoHotkey scripts for Windows automation.
 
 - [**CapsLock-Tab-LeftShift**.ahk]  
   - Caps Lock → Tab
-  - Hold Left Shift for 5 seconds → Caps Lock
+  - Hold Scroll Lock for 5 seconds → Caps Lock
 
   Useful for keyboards with a broken or missing tab key.
 
